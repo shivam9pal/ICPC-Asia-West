@@ -139,7 +139,7 @@ function TeamsPageContent() {
             )}
 
             {/* Description */}
-            <p className="text-sm sm:text-base text-red-700 leading-relaxed mb-4 sm:mb-6">
+            <p className="text-sm sm:text-base text-justify text-red-700 leading-relaxed mb-4 sm:mb-6">
               The number of teams selected from each regional site is determined by the total 
               participation in both the Online and On-site contests. A higher participation metric 
               results in more slots being allocated. Based on this criterion, the following slots have been 
@@ -202,10 +202,10 @@ function TeamsPageContent() {
             )}
 
             {/* Team Selection Process Description */}
-            <p className="text-sm sm:text-base text-red-700 leading-relaxed mb-4 sm:mb-6">
+            <p className="text-sm sm:text-base text-justify text-red-700 leading-relaxed mb-4 sm:mb-6">
               Teams are chosen based on their performance at their respective regional contest sites. 
               Below is the list of selected teams as per the Team Selection Process of the Asia West 
-              Continent Championship:
+              Championship:
             </p>
 
             {/* Selected Teams Table */}

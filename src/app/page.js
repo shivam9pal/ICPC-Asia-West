@@ -91,11 +91,11 @@ export default function Home() {
               {/* ICPC Foundation Logo Area */}
               <div className="flex items-center justify-center lg:justify-start mb-4 sm:mb-6">
                 {/* Single Image with background styling */}
-                <div class="w-full h-64 bg-none object:fit-cover">
+                <div className="w-full h-64 bg-none object:fit-cover">
                   <img
                     src="/icpc-logo.png"
                     alt="Championship"
-                    class="w-full h-100  rounded-lg"
+                    className="w-full h-100  rounded-lg"
                   />
                 </div>
               </div>
@@ -145,9 +145,9 @@ export default function Home() {
             {/* Right Side - Main Title (Full Width) */}
             <div className="flex-1 text-center min-w-0">
               <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight">
-                ASIA WEST CONTINENT
-                <br />
-                CHAMPIONSHIP
+                ASIA WEST CHAMPIONSHIP
+               
+                
               </h1>
 
               {/* Date Badge */}
@@ -201,7 +201,7 @@ export default function Home() {
                     It is a two tier contest. The world is divided into six
                     regions and Asia is a region. In Asia there are many host
                     sites and{" "}
-                    <span className="font-semibold">Asia West Continent</span>{" "}
+                    <span className="font-semibold">Asia West Championship</span>{" "}
                     is one of them. Each site selects one team as winner of the
                     site and will be eligible to participate in the world
                     finals. The winning team of each site is eligible to
@@ -210,11 +210,11 @@ export default function Home() {
                   <p className="text-justify">
                     Teams for{" "}
                     <span className="font-semibold">
-                      Asia West Continent Championship
+                      Asia West Championship
                     </span>{" "}
                     will be selected on the basis of their performance in the
                     Regional Rounds of all the sites in Asia West Region. Top
-                    few teams from all the regional sites of Asia West Continent
+                    few teams from all the regional sites of Asia West 
                     region (i.e.{" "}
                     <span className="italic">
                       Amritapuri, Chennai, Dhaka, Kabul, Kanpur, Tehran
@@ -222,7 +222,7 @@ export default function Home() {
                     and <span className="italic">Topi</span>) are eligible to
                     participate in this contest. This contest will be held on{" "}
                     <span className="font-semibold">7-8 March 2025</span>. This
-                    year Asia West Continent Championship will be a multi-site
+                    year Asia West Championship will be a multi-site
                     contest and will be held at Mathura (for Indian regional
                     teams), Dhaka (for Dhaka regional teams), Topi (for Topi and
                     Kabul regional teams) and Tehran (for Tehran regional
@@ -434,13 +434,16 @@ export default function Home() {
                     Team Selection Process:
                   </h3>
                   <p className="text-sm sm:text-base text-gray-700 mb-4">
+                    Yet to be decided <br/> To be uploaded soon
+                  </p>
+                  {/*<p className="text-sm sm:text-base text-gray-700 mb-4">
                     This is considered to be similar to any regional contest,
                     with the following exceptions:
-                  </p>
+                  </p>*/}
                 </div>
 
                 <div className="text-sm sm:text-base text-gray-700 space-y-3">
-                  <p>
+                  {/*<p>
                     1. Teams are invited to participate in the contest based on
                     their performance in their respective regional contest
                     sites.
@@ -496,7 +499,7 @@ export default function Home() {
                     followed [number of problems solved, penalty time, time of
                     last problem solved, time of 2<sup>nd</sup> last problem
                     solved, and so on.]
-                  </p>
+                  </p>*/}
                 </div>
               </div>
             </div>

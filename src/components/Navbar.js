@@ -70,7 +70,7 @@ export default function Navbar() {
       href: '/results',
       hasDropdown: true,
       items: sessions.map(session => ({
-        name: `AWC Championship ${session.year}`,
+        name: `AWC ${session.year}`,
         href: `/results?session=${session.id}`
       }))
     },
@@ -79,7 +79,7 @@ export default function Navbar() {
       href: '/teams',
       hasDropdown: true,
       items: sessions.map(session => ({
-        name: `AWC Championship ${session.year}`,
+        name: `AWC ${session.year}`,
         href: `/teams?session=${session.id}`
       }))
     },
@@ -114,7 +114,7 @@ export default function Navbar() {
           <div className="flex items-center min-w-0 flex-shrink-0">
             <Link href="/" className="flex-shrink-0">
               <span className="text-gray-900 text-sm sm:text-base lg:text-xl font-bold whitespace-nowrap">
-                <span className="hidden sm:inline">ICPC Asia West Continent</span>
+                <span className="hidden sm:inline">ICPC Asia West Championship</span>
                 <span className="sm:hidden">ICPC AWC</span>
               </span>
             </Link>

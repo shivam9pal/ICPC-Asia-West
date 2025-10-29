@@ -216,7 +216,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Project Features */}
+      {/*Project Features
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -242,7 +242,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* Technology Stack
       <section className="py-16 bg-gradient-to-r from-blue-600 to-red-600 text-white">
@@ -277,7 +277,7 @@ export default function AboutPage() {
       </section> */}
 
       {/* Contact Section */}
-      <section className="py-16 bg-gray-900 text-white">
+      {/*<section className="py-16 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Work with Technova Solutions?
@@ -313,7 +313,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
     </div>
   )
 }

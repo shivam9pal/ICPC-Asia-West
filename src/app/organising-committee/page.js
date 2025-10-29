@@ -5,7 +5,7 @@ import { Mail, MapPin, Code, Calendar, Users, Facebook, Twitter, Instagram, Link
 
 export const metadata = {
   title: 'Organising Committee & Contacts - ICPC Asia West Continent',
-  description: 'Meet the key contacts and core teams for the ICPC Asia West Continent Championship at GLA University. Find venue and logistics information.',
+  description: 'Meet the key contacts and core teams for the ICPC Asia West Championship at GLA University. Find venue and logistics information.',
 }
 
 // --- Component for individual person card (Small) ---
@@ -63,15 +63,15 @@ function LeadershipCard({ name, title, org, imgSrc, description, initialsColor =
       </p>
       
       {/* Skill Tags */}
-      <div className="flex flex-wrap justify-center gap-2 mb-6">
+      {/*<div className="flex flex-wrap justify-center gap-2 mb-6">
         <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">React</span>
         <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">Next.js</span>
         <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">Node.js</span>
         <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">Database Design</span>
-      </div>
+      </div>*/}
       
       {/* Social Icons */}
-      <div className="flex justify-center gap-4">
+      {/*<div className="flex justify-center gap-4">
         <a href="#" className="text-gray-400 hover:text-blue-600 transition-colors">
           <Facebook className="w-5 h-5" />
         </a>
@@ -84,7 +84,7 @@ function LeadershipCard({ name, title, org, imgSrc, description, initialsColor =
         <a href="#" className="text-gray-400 hover:text-blue-700 transition-colors">
           <Linkedin className="w-5 h-5" />
         </a>
-      </div>
+      </div>*/}
     </div>
   )
 }
@@ -118,12 +118,12 @@ export default function OrganisingCommitteePage() {
     <div className="min-h-screen bg-gray-50">
       {/* <Header /> */}
 
-      {/* Hero */}
+      Hero
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">The Organising Committee</h1>
           <p className="text-xl text-gray-600">
-            Dedicated to delivering a world-class ICPC Asia West Continent Championship experience.
+            Dedicated to delivering a world-class ICPC Asia West Championship experience.
           </p>
         </div>
       </section>
@@ -147,7 +147,7 @@ export default function OrganisingCommitteePage() {
               <LeadershipCard
                 name="Rohit Agrawal"
                 title="Head, ICPC Asia West"
-                org="Asia West Continent Championship"
+                org="Asia West Championship"
                 description="Overseeing the organization and coordination of the ICPC Asia West Continent Championship across all regional sites."
                 // Assuming image is at public/images/rohit-agrawal.jpg
                 imgSrc="/images/rohit-agrawal.jpg" 
@@ -179,7 +179,7 @@ export default function OrganisingCommitteePage() {
                     <MapPin className="w-6 h-6 text-red-500 mr-2"/> Host: GLA University, Mathura
                   </h3>
                   <p className="text-gray-700 mt-2 mb-4 leading-relaxed">
-                    The ICPC Asia West Continent Championship will be held at **GLA University, Mathura**, a globally recognised institution providing dedicated, world-class facilities to ensure a flawless competition experience.
+                    The ICPC Asia West Championship will be held at **GLA University, Mathura**, a globally recognised institution providing dedicated, world-class facilities to ensure a flawless competition experience.
                   </p>
                   
                   {/* Detailed Logistics */}

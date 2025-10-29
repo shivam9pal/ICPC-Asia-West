@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
         <div className="text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
-            ICPC Asia West Continent
+            ICPC Asia West Championship
           </h1>
           <p className="mt-6 text-xl sm:text-2xl max-w-3xl mx-auto text-blue-100">
             The premier programming contest for university students across the Asia West region

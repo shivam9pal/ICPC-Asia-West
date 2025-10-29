@@ -8,8 +8,8 @@ export default function Footer() {
           
           {/* ICPC Information */}
           <div>
-            <h3 className="text-lg font-bold mb-4">ICPC Asia West Continent</h3>
-            <p className="text-gray-600 text-sm leading-relaxed">
+            <h3 className="text-lg font-bold mb-4">ICPC Asia West Championship</h3>
+            <p className="text-gray-600 text-sm leading-relaxed text-justify">
               The premier programming contest for university students across the Asia West region, 
               fostering algorithmic thinking and competitive programming excellence.
             </p>
@@ -84,7 +84,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-300 mt-8 pt-8 text-center">
           <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} ICPC Asia West Continent Championship. All rights reserved Technova Solutions Pvt. Ltd.
+            © {new Date().getFullYear()} ICPC Asia West Championship. All rights reserved .
           </p>
         </div>
       </div>
